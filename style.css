@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #061de3, #e306ca);
+    font-family: monospace, sans-serif;
+    color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    perspective: 400px;
+}
+
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg) rotateZ(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+    font-size: large;
+}
+
+
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-image: url(D:/Krishna/Site/photos/image1.jpg);
+    zoom: 50%;
+}
+
+.back {
+    background-color: #C8A2C8;
+    transform: rotateY(180deg) rotateZ(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+.container2 {
+    width: 350px;
+    height: 500px;
+    perspective: 400px;
+}
+
+.container2:hover > .card2{
+    cursor: pointer;
+    transform: rotateY(180deg) rotateZ(180deg);
+}
+
+.card2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+}
+
+
+
+.front2,
+.back2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front2 {
+    background-image: url(D:/Krishna/Site/photos/navratri.jpg);
+    zoom: 50%;
+}
+
+.back2 {
+    background-color: #C8A2C8;
+    transform: rotateY(180deg) rotateZ(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.container3 {
+    width: 350px;
+    height: 500px;
+    perspective: 400px;
+}
+
+.container3:hover > .card3{
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+
+.card3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+}
+
+
+
+.front3,
+.back3 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front3 {
+    background-image: url(D:/Krishna/Site/photos/kalidas.jpg);
+    zoom: 40%;
+}
+
+.back3 {
+    background-color: #C8A2C8;
+    transform: rotateX(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container4 {
+    width: 350px;
+    height: 500px;
+    perspective: 400px;
+}
+
+.container4:hover > .card4{
+    cursor: pointer;
+    transform: rotateZ(180deg) rotateY(180deg) ;
+}
+
+.card4 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+}
+
+
+
+.front4,
+.back4 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front4 {
+    background-image: url(D:/Krishna/Site/photos/babes.jpg);
+    zoom: 35%;
+}
+
+.back4 {
+    background-color: #C8A2C8;
+    transform: rotateZ(180deg) rotateY(180deg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.container5 {
+    width: 350px;
+    height: 500px;
+    perspective: 400px;
+}
+
+.container5:hover > .card5{
+    cursor: pointer;
+    transform: rotateZ(180deg) rotateY(180deg) ;
+}
+
+.card5 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+}
+
+
+
+.front5,
+.back5 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front5 {
+    background-image: url(D:/Krishna/Site/photos/ussss.jpg);
+    zoom: 35%;
+}
+
+.back5 {
+    background-color: #C8A2C8;
+    transform: rotateZ(180deg) rotateY(180deg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+}
