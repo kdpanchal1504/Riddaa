@@ -98,7 +98,7 @@ body {
 }
 
 .front2 {
-    background-image: url(./photos/navratri.jpg);
+    background-image: url(../photos/navratri.jpg);
     zoom: 50%;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .front3 {
-    background-image: url(./photos/kalidas.jpg);
+    background-image: url(../photos/kalidas.jpg);
     zoom: 40%;
 }
 
@@ -191,7 +191,7 @@ body {
 }
 
 .front4 {
-    background-image: url(./photos/babes.jpg);
+    background-image: url(../photos/babes.jpg);
     zoom: 35%;
 }
 
@@ -238,7 +238,7 @@ body {
 }
 
 .front5 {
-    background-image: url(./photos/ussss.jpg);
+    background-image: url(../photos/ussss.jpg);
     zoom: 35%;
 }
 
